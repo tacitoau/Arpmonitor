@@ -1,6 +1,6 @@
-#!/usr/bin/python3
-
 from scapy.all import *
+
+#Buscando Endereço MAC
 
 def arp_display(pkt):
     if pkt[ARP].op == 1:
